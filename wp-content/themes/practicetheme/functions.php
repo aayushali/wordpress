@@ -159,7 +159,12 @@ add_action('wp_ajax_example_ajax_request', 'example_ajax_request');
 add_action('wp_ajax_nopriv_example_ajax_request', 'example_ajax_request');
 
 
+add_action('wp_enqueue_scripts','enqueue_scripts_test');
 
+function enqueue_scripts_test(){
+
+    return null;
+}
 
 
 

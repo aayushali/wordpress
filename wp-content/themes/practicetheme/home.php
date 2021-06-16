@@ -22,10 +22,6 @@ wp_reset_postdata();
 <div class="posts-content">
 </div>
 
-<?php
-get_footer();
-
-?>
 
 
 
